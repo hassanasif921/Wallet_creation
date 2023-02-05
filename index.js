@@ -133,4 +133,4 @@ app.post("/token-wallet", async (req, res) => {
   res.end()
 });
 
-server.listen(PORT, () => console.log(`running on port ${PORT}`));
+server.listen();
